@@ -5,6 +5,7 @@ pkg install git -y
 pkg install wget -y
 pkg install curl -y
 
+pkg install nano -y
 pkg install unzip -y
 
 pkg install apache2 -y
