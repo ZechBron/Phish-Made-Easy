@@ -47,7 +47,3 @@ ngrok
 else
 echo -e "\e[91mUnknown Error.\e[0m"
 fi
-
-
-
-https://github.com/ZechBron/Phish-Made-Easy
