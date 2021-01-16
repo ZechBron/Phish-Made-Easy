@@ -36,13 +36,13 @@ apachectl start
 uname -m || grep -o 64
 # 0 means 64
 if [ $? = 0 ]; then
-wget https://github.com/ZechBron/Phish-Made-Easy/raw/master/ngrok-stable-linux-arm64.zip
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm64.zip
 unzip ngrok-stable-linux-arm64.zip
 ngrok
 
 # 1 means no
 elif [ $? = 1 ]; then
-wget https://github.com/ZechBron/Phish-Made-Easy/raw/master/ngrok-stable-linux-arm.zip
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 unzip ngrok-stable-linux-arm.zip
 ngrok
 else
